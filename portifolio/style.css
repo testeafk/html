@@ -32,3 +32,26 @@ header div a:hover { /* seleção de modo quando o mouse passar por cima "hover"
 color: green; /* mudar para cor verde quando passar por cima */
 transition: color 700ms; /* fazer uma transição de cor por 700 ms */
 }
+#box {
+    text-align: center; /* Alinhamento no meio do body */
+    padding: 32px; /* distancia entre outros elementos */
+}
+#box img {
+    border-radius: 50%; /* adiciona uma borda redonda a imagem */
+    border: 5px solid #6e0342; /* adiciona uma cor a borda da imagem */
+    margin-bottom: 32px; /* distancia da imagem inferior dos outros elementos */
+}
+#box h1 {
+    font-size: 25px; /* tamanho da fonte */
+    line-height: 52px; /*espaçamento da fonte */
+    font-weight: bold; /* tipo de fonte */
+    color: aqua;
+}
+#box h2 {
+    font-size: 24px; /* tamanho da fonte */
+    line-height: 34px; /* espaçamento da linha do texto */
+    font-weight: normal; /* tipo da fonte */
+    margin-top: 8px; /*distancia da margem superior dos outros elementos */
+    opacity: 0.8; /* transparencia do elemento */
+    color: aqua;
+}
