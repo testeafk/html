@@ -13,10 +13,10 @@ body{
         border-bottom: 1px solid #333;
         text-align: center;
     }
-    header div {
+    .links {
         text-align: center; /* Alinhamento no meio do header */
     }
-    header div a {
+    .links a{
         color: white; /* a cor do texto*/
         font-size: 20px; /* tamanho da fonte*/
         line-height: 30px; /* espaçamento da linha do texto*/
@@ -28,13 +28,14 @@ body{
         font-style: normal;
                                  }
                 }
-header div a:hover { /* seleção de modo quando o mouse passar por cima "hover" */
+.links a:hover { /* seleção de modo quando o mouse passar por cima "hover" */
 color: green; /* mudar para cor verde quando passar por cima */
 transition: color 700ms; /* fazer uma transição de cor por 700 ms */
 }
 #box {
     text-align: center; /* Alinhamento no meio do body */
     padding: 32px; /* distancia entre outros elementos */
+    font-family: "Shippori Mincho", serif;
 }
 #box img {
     border-radius: 50%; /* adiciona uma borda redonda a imagem */
@@ -54,4 +55,12 @@ transition: color 700ms; /* fazer uma transição de cor por 700 ms */
     margin-top: 8px; /*distancia da margem superior dos outros elementos */
     opacity: 0.8; /* transparencia do elemento */
     color: aqua;
+}
+#links-footer{
+    padding-top: 32px;
+}
+#links-footer a{
+    padding-top: 32px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid;
 }
